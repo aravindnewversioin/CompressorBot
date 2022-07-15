@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  workers:
+    build: .
+    environment:
+      - APP_ID=${APP_ID}
+      - API_HASH=${API_HASH}
+      - BOT_TOKEN=${BOT_TOKEN}
