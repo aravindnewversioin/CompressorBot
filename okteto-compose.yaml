@@ -6,3 +6,5 @@ services:
       - APP_ID=${APP_ID}
       - API_HASH=${API_HASH}
       - BOT_TOKEN=${BOT_TOKEN}
+      - OWNER_ID=${OWNER_ID}
+      - LOG_CHANNEL=${LOG_CHANNEL}
